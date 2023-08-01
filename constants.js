@@ -1,0 +1,15 @@
+
+
+const VALIDATION_ERROR = 400;
+const UNAUTHORIZED = 401;
+const FORBIDDEN = 403;
+const NOT_FOUND = 404;
+const SERVER_ERROR = 500;
+
+module.exports = {
+  VALIDATION_ERROR,
+  NOT_FOUND,
+  UNAUTHORIZED,
+  FORBIDDEN,
+  SERVER_ERROR,
+};
